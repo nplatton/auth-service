@@ -1,1 +1,7 @@
 # Configuration values for local development.
+server:
+  host: localhost
+  port: 8080
+
+logging:
+  level: debug
