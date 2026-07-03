@@ -1,6 +1,8 @@
+package middleware
+
 // Uses logging/logger.go to log HTTP requests:
 // Its job is:
-// 
+//
 // HTTP Request
 // ↓
 // Request started
@@ -10,7 +12,7 @@
 // Status code
 // ↓
 // Duration
-// 
+//
 // Example log:
 // POST /login
 // Status: 200
