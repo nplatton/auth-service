@@ -1,0 +1,1 @@
+# Removes generated artefacts and temporary files.

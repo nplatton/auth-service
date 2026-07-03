@@ -1,0 +1,1 @@
+# Creates and registers a new OAuth client application for use with the Auth Service.

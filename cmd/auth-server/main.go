@@ -1,0 +1,1 @@
+// Application entry point responsible for loading configuration, wiring dependencies and starting the HTTP server.
