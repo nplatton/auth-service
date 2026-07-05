@@ -7,5 +7,5 @@ import (
 )
 
 func RegisterRoutes(mux *http.ServeMux) {
-	mux.HandleFunc("/health", handlers.HealthHandler)
+	mux.HandleFunc("GET /health", handlers.HealthHandler)
 }
