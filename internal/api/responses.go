@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"example.com/auth-service/internal/logging"
-	"example.com/auth-service/internal/requestid"
+	"example.com/auth-service/internal/utils/requestid"
 )
 
 type ErrorResponse struct {
