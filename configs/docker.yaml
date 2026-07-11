@@ -1,1 +1,7 @@
 # Configuration used when running inside Docker.
+server:
+  host: 0.0.0.0
+  port: 8080
+
+logging:
+  level: debug

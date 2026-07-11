@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"example.com/auth-service/internal/requestid"
+	"example.com/auth-service/internal/utils/requestid"
 )
 
 func RequestID(next http.Handler) http.Handler {

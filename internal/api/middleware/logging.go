@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"example.com/auth-service/internal/logging"
-	"example.com/auth-service/internal/requestid"
+	"example.com/auth-service/internal/utils/requestid"
 )
 
 func Logger(next http.Handler) http.Handler {
