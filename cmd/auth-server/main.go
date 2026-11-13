@@ -65,11 +65,7 @@ func main() {
 func waitForShutdownSignal() <-chan os.Signal {
 	sigChan := make(chan os.Signal, 1)
 
-	signal.Notify(
-		sigChan,
-		syscall.SIGINT,
-		syscall.SIGTERM,
-	)
+	signal.Notify(sigChan, syscall.SIGINT, syscall.SIGTERM)
 
 	return sigChan
 }
